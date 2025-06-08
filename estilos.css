@@ -1,0 +1,59 @@
+/* Fondo con GIF */
+body {
+  background-image: url('elgif.gif'); /* Asegúrate de tener el archivo 'fondo.gif' en la misma carpeta */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+/* Encabezado */
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Contenedor principal */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: rgba(0, 0, 0, 0.6); /* Semitransparente */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Secciones */
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #00ffff;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  color: #ddd;
+  margin-top: 30px;
+}
